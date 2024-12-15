@@ -1,0 +1,102 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+}
+
+header .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Products Section */
+#products {
+  padding: 20px;
+  text-align: center;
+}
+
+.product-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+.product-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.product-card h2 {
+  font-size: 18px;
+}
+
+.product-card button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.product-card button:hover {
+  background-color: #0056b3;
+}
+
+/* Cart Section */
+#cart {
+  padding: 20px;
+  background-color: #fff;
+}
+
+#cart ul {
+  list-style: none;
+  padding: 0;
+}
+
+#cart ul li {
+  padding: 5px 0;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+}
