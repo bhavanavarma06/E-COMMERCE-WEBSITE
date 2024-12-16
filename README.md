@@ -1,7 +1,7 @@
 # E-COMMERCE WEBSITE
 
 ## Description
-This is a simple e-commerce website built using *HTML, **CSS, and **JavaScript*. The website includes a product listing page, a shopping cart, and interactive features like adding and removing products from the cart.
+This is a simple e-commerce website built using HTML, CSS, and JavaScript. The website includes a product listing page, a shopping cart, and interactive features like adding and removing products from the cart.
 
 ## Features
 - Display of products with images, names, and prices.
@@ -25,6 +25,3 @@ This is a simple e-commerce website built using *HTML, **CSS, and **JavaScript*.
 - Add user authentication and login functionality.
 - Implement a backend server for data persistence.
 - Add a payment gateway integration.
-
-## Author
-Created by [Your Name].
