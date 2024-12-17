@@ -22,7 +22,7 @@ function renderCart() {
     cart.forEach((item, index) => {
       const li = document.createElement('li');
       li.textContent = ${item.name} - $${item.price.toFixed(2)};
-      li.innerHTML += ` <button onclick="removeFromCart(${index})">Remove</button>`;
+      li.innerHTML += `<button onclick="removeFromCart(${index})">Remove</button>`;
       cartItems.appendChild(li);
     });
   }
